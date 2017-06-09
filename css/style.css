@@ -136,3 +136,23 @@ army green: 41521F;
 	position: absolute;
 	top: 40px;
 }
+.sixth-section p{
+	font-size:12px;
+}
+.footer{
+	background-color: #41521F;
+	height: auto;
+	width:100%;
+	padding:10vh;
+}
+.footer h6, .footer a{
+	font-size:10px;
+	color: #A89F68;
+}
+.footer ul {
+	list-style: none
+}
+.footer p{
+	color: white;
+	font-size: 10px;
+}
