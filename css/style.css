@@ -8,8 +8,6 @@ army green: 41521F;
 .navbar-default{
 	border: none;
 	background-color: transparent;	
-	margin-left: 50px;
-	margin-right: 50px;
 } 
 .navbar-default .navbar-nav > li > a{
 	color: white;
@@ -25,9 +23,8 @@ army green: 41521F;
 	height: 100vh;
 	background-size: cover;
 	background-position: center center;
-	overflow: hidden;
 }
-.bienvenida h1, .bienvenida p{
+.bienvenida h2, .bienvenida p{
 	color: white;
 }
 .bienvenida{
@@ -40,15 +37,44 @@ army green: 41521F;
 	color: white;
 }
 .second-section{
-	height: 100vh;
+	height: auto;
 	margin:auto;
+	overflow: hidden;
 	padding-top: 10vh;
+	padding-bottom: 10vh;
 }
 .mama-koala{
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center center;
 }
-.second-section h1, .second-section h4{
+.second-section h2, .second-section h4, .second-section a{
 	color: #A89F68;
+}
+.third-section{
+	padding: 10vh;
+	background-color: #A89F68;
+}
+.third-section h2{
+	color: #41521F;
+}
+.third-section h5, .third-section p{
+	color: #fff;
+}
+.third-section img{
+	border-color: #fff;
+  	border-style: solid;
+  	border-width: thick;
+}
+.fourth-section{
+	color: #fff;
+  	background-image: url(../img/all.jpg);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	height: 100vh;
+  	width: 100%;
+  	padding-bottom: 10vh;
+  	padding-top: 10vh;
+
 }
