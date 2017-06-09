@@ -2,20 +2,22 @@
 wood brown: A89F68;
 army green: 41521F;
 */
-
+.body{
+	font-family: 'Lato', sans-serif;
+}
 .navbar-default{
 	border: none;
 	background-color: transparent;	
+	margin-left: 50px;
+	margin-right: 50px;
 } 
-
 .navbar-default .navbar-nav > li > a{
 	color: white;
 	font-weight: bolder;
 }
-
 .navbar-default .navbar-brand{
 	color: white;
-	font-weight: bolder;
+	font-weight: bolder;	
 }
 .first-section{
 	background-image: url(../img/portada.jpg);
@@ -23,8 +25,9 @@ army green: 41521F;
 	height: 100vh;
 	background-size: cover;
 	background-position: center center;
+	overflow: hidden;
 }
-.bienvenida h1, p{
+.bienvenida h1, .bienvenida p{
 	color: white;
 }
 .bienvenida{
@@ -35,4 +38,17 @@ army green: 41521F;
 	background-color: #41521F;
 	border: none;
 	color: white;
+}
+.second-section{
+	height: 100vh;
+	margin:auto;
+	padding-top: 10vh;
+}
+.mama-koala{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.second-section h1, .second-section h4{
+	color: #A89F68;
 }
